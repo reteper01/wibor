@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #115d59;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #45a049;
+}
